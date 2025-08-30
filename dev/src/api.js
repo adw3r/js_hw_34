@@ -1,4 +1,4 @@
-import API_KEY from "@/config.js";
+import API_KEY from "./config.js";
 
 class Api {
     __base_url = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}`;
